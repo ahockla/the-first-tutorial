@@ -31,7 +31,7 @@ In order to verify that your solutions are correct and run them against the prov
 
     python lesson0/problem0.py < lesson0/problem0.txt | diff -s lesson0/solution0.txt -
     
-A solution on windows 
+A solution on windows will essentially the same once git has been installed.
     
 A correct solution should output `Files lesson0/solution0.txt and - are identical`.  If diff reports mismatches on seemingly identical lines, you probably checked out the solution files with the wrong line ending encoding for your platform - see [this article](https://help.github.com/articles/dealing-with-line-endings) for steps to resolve the issue.
 
