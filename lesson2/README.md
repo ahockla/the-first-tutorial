@@ -7,7 +7,7 @@ The fibonacci sequence is a series of numbers, starting with 0 and 1, where ever
 
     0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...
 
-You will be given the parameters (a, c, m, X0) to an LCG for generating random numbers.  Using these values, you will generate a list of the first N fibonacci numbers.  Print the sum of the N values, modulo D.
+You will be given the parameters (a, c, m, X0) to an LCG for generating random numbers.  Pull N numbers from the LCG, and calculate the fibonacci number at the matching index.  Print the sum of the N associated fibonacci numbers, modulo D.
 
 The input file will be in a single line in the following format:
 
