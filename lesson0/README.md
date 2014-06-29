@@ -27,7 +27,7 @@ Where:
  * op is a single character that describes the reduction operation you'll be performing: `+` represents addition and `*` represents multiplication
 
 
-From these inputs, an op of `+` will require you to compute ![](http://tex.sh/tex/$/sum_%7B1%7D%5E%7BN%7D%20X_%7Bi%7D%20/mod%20D$.png), and an op of `-` will require you to compute ![](http://tex.sh/tex/$/prod_%7B1%7D%5E%7BN%7D%20X_%7Bi%7D%20/mod%20D$.png).
+From these inputs, an op of `+` will require you to compute ![](http://tex.sh/tex/$/sum_%7B1%7D%5E%7BN%7D%20X_%7Bi%7D%20/mod%20D$.png), and an op of `*` will require you to compute ![](http://tex.sh/tex/$/prod_%7B1%7D%5E%7BN%7D%20X_%7Bi%7D%20/mod%20D$.png).
 
 In order to actually be successful at this problem, you will have to inspect the values provided in each problem set, and figure out the behavior that is implied by the values provided.
 
